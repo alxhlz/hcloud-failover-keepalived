@@ -1,0 +1,17 @@
+{
+    "url": "https://api.hetzner.cloud/v1/floating_ips/{}/actions/assign",
+    "api-token": "",
+    "ips": [
+        {
+            "floating-ip-id": "",
+            "floating-ip": ""
+        },
+        {
+            "floating-ip-id": "",
+            "floating-ip": ""
+        }
+    ],
+    "server-id": 0,
+    "interface": "",
+    "ip_bin_path": "/bin/ip"
+}
