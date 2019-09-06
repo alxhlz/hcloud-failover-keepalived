@@ -1,7 +1,10 @@
 {
-    "url": "https://api.hetzner.cloud/v1/floating_ips/{}/actions/assign",
     "api-token": "",
-    "ips": [
+    "server-id": 0,
+    "ip-bin-path": "/bin/ip",
+    "use-private-ips": true,
+    "url-floating": "https://api.hetzner.cloud/v1/floating_ips/{}/actions/assign",
+    "floating-ips": [
         {
             "floating-ip-id": "",
             "floating-ip": ""
@@ -11,7 +14,16 @@
             "floating-ip": ""
         }
     ],
-    "server-id": 0,
-    "interface": "",
-    "ip_bin_path": "/bin/ip"
+    "interface-wan": "",
+    "url-alias": "https://api.hetzner.cloud/v1/servers/{}/actions/change_alias_ips",
+    "private-ips": [
+        "127.0.0.1",
+        "10.0.0.1"
+    ],
+    "server-ids": [
+        123,
+        1337
+    ],
+    "network-id": 123,
+    "interface-private": ""
 }
