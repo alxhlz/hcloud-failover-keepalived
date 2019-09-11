@@ -1,7 +1,7 @@
-# Hetzner Cloud - Floating IP switchover - keepalived
+# Hetzner Cloud - Floating IP and Private IP switchover - keepalived
 
-This is a little script for switching over a Floating IP at Hetzner Cloud.  
-Because of `multiprocessing` a switchover of multiple Floating IPs would run simultaniously.  
+This is a little script for switching the assigned VM of Floating IPs. It's also possible to modify assigned Alias IPs to also use the private networks feature of Hetzner Cloud.
+
 I am using this script in combination with [keepalived](http://www.keepalived.org).
 
 **Credits:** [r3vival](https://github.com/r3vival) | [lehuizi](https://github.com/lehuizi)  
