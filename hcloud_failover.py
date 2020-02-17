@@ -12,11 +12,11 @@ CONFIG_PATH = os.path.join(os.path.abspath(
 
 
 def del_ip(ip_bin_path, ip, interface):
-    os.system(ip_bin_path + " addr del " + ip + " dev " + interface)
+    os.system(ip_bin_path + " addr del " + ip + "/32 dev " + interface)
 
 
 def add_ip(ip_bin_path, ip, interface):
-    os.system(ip_bin_path + " addr add " + ip + " dev " + interface)
+    os.system(ip_bin_path + " addr add " + ip + "/32 dev " + interface)
 
 
 def change_request(endstate, url, header, payload, ip_bin_path, floating_ip, interface):
