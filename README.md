@@ -51,7 +51,7 @@ Now also add the ip address to the config file and remove the additional block f
 1. If you also want to failover private ip addresses, fill in the required private ips into the "private-ips" array and make sure the "use-private-ips" parameter is set to `true`. Initially you should configure the required ip addresses via webinterface on one of the servers.
 2. Now you have to insert **all** server id's into the array called "server-ids".
 3. Now you have to insert the id of your private network into "network-id". You can fetch this through the url of the webinterface (by clicking on the private network and copying the last id in the url or you copy the id from the hcloud command line interface `hcloud network list`.
-4. Finally fill in the name of your private network interface (eg. `eth10`)
+4. Finally fill in the name of your private network interface (eg. `ens10`).
 
 ---
 
