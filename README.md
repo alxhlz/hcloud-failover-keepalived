@@ -38,7 +38,7 @@ cp config.json.sample config.json
 It is important, that you insert the server id of the current system you are working on. You can find the id on the overview page of each server directly under the type of the server (eg. CX11).
 
 **6. Configure the floating ips**  
-You can configure as much floating ips as you want. Just copy the floating ip id from the hcloud command line utility (personally I don't know a way to fetch the ip from the webinterface). 
+You can configure as much floating ips as you want. Just copy the floating ip id from the [hcloud](https://github.com/hetznercloud/cli/releases) command line utility (personally I don't know a way to fetch the ip from the webinterface). 
 
 `hcloud floating-ip list`  
 
